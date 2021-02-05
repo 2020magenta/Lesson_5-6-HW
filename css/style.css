@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&family=Pacifico&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Oswald&family=Pacifico&family=Roboto&display=swap");
+
+@font-face {
+	font-family: "Akzidenz-Grotesk BQ Condensed";
+	src: url("../fonts/AkzidenzGroteskBQ-BdCnd.woff2") format("woff2"),
+		url("../fonts/AkzidenzGroteskBQ-BdCnd.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Arthury";
+	src: url("../fonts/arthury-Regular.woff2") format("woff2"), url("../fonts/arthury-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Bikini";
+	src: url("../fonts/Bikini.woff2") format("woff2"), url("../fonts/Bikini.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*-----------------*/
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+}
+/*--------------------------*/
+
+body {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+.fruits {
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+h1 {
+	font-family: "Bikini";
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 20px;
+	line-height: 130%;
+	color: rgb(210, 33, 245);
+	text-shadow: 2px 2px 1px purple, -2px 2px 5px rgba(0, 113, 128, 0.698);
+	margin-bottom: 40px;
+}
+/*.quadro__image {
+	margin: 0px auto;
+}*/
+.quadro {
+	width: 250px;
+	padding: 15px;
+	border-radius: 50%;
+	border: 5px solid black;
+	box-shadow: 10px -5px 30px 20px #000;
+}
+.item {
+	display: block;
+	width: 150px;
+	margin: 50px auto;
+	background-color: rgba(255, 10, 10, 0.192);
+	text-align: center;
+	font-style: italic;
+	padding: 15px;
+}
+.item__transp {
+	opacity: 0.5;
+}
+.item__button {
+	font-family: PT Sans;
+	display: block;
+	width: 700px;
+	line-height: 120%;
+	font-size: 28px;
+	font-style: normal;
+	outline: 2px solid #000;
+}
+.one {
+	text-decoration: underline dotted rgb(201, 4, 119);
+	color: navy;
+}
+.two {
+	background-color: rgba(134, 217, 238, 0.664);
+	display: block;
+	padding: 25px 0;
+}
+.two span {
+	color: darkred;
+}
+.three {
+	text-decoration: line-through;
+}
+.text {
+	font-family: "Bebas Neue";
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	max-width: 50%;
+	text-align: right;
+	margin: 20px 0 15px 50%;
+}
+.leaf img {
+	border-radius: 80px 15px;
+	padding: 0 15px;
+	background-color: rgb(37, 15, 238);
+	margin: 0px 20px 30px 25px;
+	border: dotted rgb(255, 251, 15);
+}
+.article {
+	font-family: "Akzidenz-Grotesk BQ Condensed";
+	background-color: rgba(188, 143, 143, 0.226);
+	text-indent: 50px;
+	text-align: justify;
+	line-height: 120%;
+	padding: 22px;
+}
+.owal {
+	display: block;
+	width: 50%;
+	margin: 25px auto;
+	border-radius: 50%;
+	border: dashed 10px rgba(0, 0, 0, 0.739);
+	box-shadow: 25px 25px 25px yellowgreen;
+}
+.menu__list li {
+	font-family: "Arthury";
+	font-size: 30px;
+	display: inline;
+	margin: 15px 40px;
+	text-decoration: underline;
+}
+.menu__list {
+	margin: 100px auto;
+}
+.text__area {
+	font-family: "Pacifico", cursive;
+	text-indent: 100px;
+	line-height: 140%;
+	text-align: justify;
+	text-shadow: 1px 1px 2px rgba(240, 170, 112, 0.74), 1px -2px 2px rgba(240, 210, 112, 0.74);
+	font-size: 25px;
+}
+.text__block {
+	height: 350px;
+	background-color: rgb(208, 233, 238);
+	overflow: auto;
+	margin-bottom: 50px;
+	padding: 28px;
+}
+.text__part {
+	font-family: "Dancing Script", cursive;
+	height: 450px;
+	background-color: rgb(138, 174, 214);
+	outline: 7px double rgb(18, 14, 240);
+	padding: 25px;
+	overflow: visible;
+}
+.text__part p {
+	font-family: "Dancing Script", cursive;
+}
+.image__text {
+	display: inline;
+	max-width: 350px;
+	float: left;
+	margin: 20px 20px 20px -150px;
+}
+footer p {
+	margin: 400px 0 100px 0;
+	opacity: 0.5;
+	text-align: center;
+}
