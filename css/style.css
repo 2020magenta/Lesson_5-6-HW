@@ -108,7 +108,8 @@ h1 {
 .item__button {
 	font-family: PT Sans;
 	display: block;
-	width: 700px;
+	width: 100%;
+	max-width: 700px;
 	line-height: 120%;
 	font-size: 28px;
 	font-style: normal;
