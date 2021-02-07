@@ -208,3 +208,17 @@ footer p {
 	opacity: 0.5;
 	text-align: center;
 }
+.block__shadow {
+	font-size: 28px;
+	max-width: 650px;
+	margin: 50px;
+	padding: 40px;
+	outline: 5px solid rgba(183, 30, 253, 0.733);
+	box-shadow: inset 0px 0px 20px 5px rgb(207, 33, 238, 0.8), inset 0px 0px 50px 15px rgba(93, 215, 245, 0.911);
+	border-radius: 45%;
+}
+.image__shadow {
+	width: 500px;
+	margin: 50px;
+	filter: drop-shadow(-30px 30px 10px #000);
+}
